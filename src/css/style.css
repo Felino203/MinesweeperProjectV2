@@ -2,7 +2,34 @@ html {
   position: relative;
   min-height: 100%;
 }
+
 body {
-  margin: 0;
+  margin: 0% 5% 0% 5%;
   font-family: sans-serif;
+}
+
+main {
+  height: 90vh;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#minefield {
+  height: 80%;
+  width: 80%;
+  resize: both;
+  display: grid;
+}
+
+.tile {
+  height: 100%;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  background-image: url("../../data/img/blank_case.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
