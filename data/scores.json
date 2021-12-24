@@ -1,0 +1,14 @@
+{
+    "scores": [
+        {
+            "name": "Felix",
+            "difficulty": "20x30",
+            "score": 9999 
+        },
+        {
+            "name": "Victor",
+            "difficulty": "69x69",
+            "score": 9999 
+        }
+    ]
+}

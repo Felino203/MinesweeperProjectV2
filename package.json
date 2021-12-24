@@ -1,7 +1,7 @@
 {
   "scripts": {
     "clean": "rimraf ./node_modules",
-    "start": "lite-server .",
+    "start": "lite-server --baseDir=`src/html`",
     "e2e": "nightwatch --config ./nightwatch.json"
   },
   "devDependencies": {
@@ -9,7 +9,6 @@
     "events": "3.3.0",
     "h5o": "0.11.3",
     "lite-server": "^2.6.1",
-    "nightwatch": "1.6.4",
     "rimraf": "^3.0.2",
     "selenium-server": "3.141.59",
     "util": "0.12.3",
